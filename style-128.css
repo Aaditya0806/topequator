@@ -4845,7 +4845,8 @@ html {
   
   .contacts-textarea {
     border: 1px solid var(--dark-violet);
-    color: var(--paragraph-white);
+    /* color: var(--paragraph-white); */
+    color: white;
     background-color: #0000;
     border-radius: 20px;
     min-width: 100%;
@@ -8692,7 +8693,8 @@ html {
   
   .first-input {
     border: 1px solid var(--dark-violet);
-    color: var(--paragraph-white);
+    /* color: var(--paragraph-white); */
+    color: white;
     background-color: #0000;
     border-radius: 50px;
     width: 50%;
@@ -8713,7 +8715,8 @@ html {
   
   .second-input {
     border: 1px solid var(--dark-violet);
-    color: var(--paragraph-white);
+    /* color: var(--paragraph-white); */
+    color: white;
     background-color: #0000;
     border-radius: 50px;
     width: 50%;
@@ -8735,7 +8738,8 @@ html {
   
   .third-input {
     border: 1px solid var(--dark-violet);
-    color: var(--paragraph-white);
+    /* color: var(--paragraph-white); */
+    color: white;
     background-color: #0000;
     border-radius: 50px;
     width: 50%;
@@ -8757,7 +8761,8 @@ html {
   
   .fourth-input {
     border: 1px solid var(--dark-violet);
-    color: var(--paragraph-white);
+    /* color: var(--paragraph-white); */
+    color: white;
     background-color: #0000;
     border-radius: 50px;
     width: 50%;
