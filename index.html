@@ -461,13 +461,10 @@
   </script>
   
 
-  <script>
-           
+  <script>       
     (function(){
       emailjs.init("Lh0tVliNk3_UiXc1i"); // Replace YOUR_USER_ID with your actual user ID from Email.js
     })();
-    
-  
     function JoinSubmit() {
       event.preventDefault(); // Prevent form submission
       
@@ -475,18 +472,16 @@
    
       var femail = document.getElementById("joinemail").value;
 
-      
-      
+      if (femail === "" || !femail.includes("@") || !femail.includes(".com")) {
+      alert("Please enter a valid email address.");
+      return;
+    }
       // Send email
       emailjs.send("service_glg0jkc","template_7vygpgl", {
         from_name1: femail,
-    
-
-      }).then(function(response) {
-        // alert("Email sent successfully!");
-        
+      }).then(function(response) {  
        alert(`Thank you! We'll notify you at ${femail} when we launch.`);
-         emailInput.value = '';
+        emailInput.value = '';
         document.getElementById("joinemail").value=""
 
       }, function(error) {
@@ -494,8 +489,6 @@
         alert("Oops! Something went wrong.");
       });
     }
-
-
 </script>
     <script>
       // Countdown Timer
