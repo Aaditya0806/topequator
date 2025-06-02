@@ -501,8 +501,10 @@
       // Countdown Timer
       function initCountdown() {
         // Set target date to 11 days from now
-        const targetDate = new Date();
-        targetDate.setDate(targetDate.getDate() + 10);
+      //  const targetDate = new Date();
+       // targetDate.setDate(targetDate.getDate() + 10);
+        // Set target date to June 9th, 2025
+        const targetDate = new Date('2025-06-09T00:00:00');
 
         function updateCountdown() {
           const now = new Date().getTime();
